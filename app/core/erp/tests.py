@@ -42,5 +42,5 @@ from  core.erp.models import  Type
 #    print(i)
 
 #
-for i in Type.objects.filter(name__iendswith='a')[:2]:
+for i in Type.objects.filter(name__endswith='a')[:2]:
     print(i)
